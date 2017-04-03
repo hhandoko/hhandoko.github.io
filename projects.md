@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Projects
-permalink: /projects/
+permalink: /projects.html
 ---
 
 The following is a list of my current and past open-source contributions, ordered alphabetically, grouped by status (active / inactive):
