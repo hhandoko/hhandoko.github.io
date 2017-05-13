@@ -47,6 +47,10 @@ The following is a collection of resources (e.g. packages, PPAs, themes) I'm usi
 * [Unity Dash Icon update](http://askubuntu.com/a/654404) - Update Unity dash with a custom icon.
 * [Unity Tweak](https://apps.ubuntu.com/cat/applications/unity-tweak-tool/) - Easily change themes and fonts in Unity.
 
+#### Other
+
+* [Restore grub](https://itsfoss.com/no-grub-windows-linux/) - Restore grub after Windows 10 update (`bcdedit /set {bootmgr} path \EFI\ubuntu\grubx64.efi` in command shell).
+
 <br>
 
 ---
