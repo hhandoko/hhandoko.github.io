@@ -11,6 +11,10 @@ The following is a list of my current and past open-source contributions, ordere
 * [ServiceStack.Authentication.LightSpeed](#servicestackauthenticationlightspeed) (inactive)
 * [yam-dotnet](#yam-dotnet) (inactive)
 
+In addition, I am actively working on a social utility application with a group of friends:
+
+* [simpoel](#simpoel)
+
 <br>
 
 ---
@@ -78,3 +82,20 @@ The following is a list of my current and past open-source contributions, ordere
 **Link:** [hhandoko / yam-dotnet](https://github.com/hhandoko/yam-dotnet) [[Nuget](https://www.nuget.org/packages/YamNet.Client/)]
 <br><br>
 **Tags:** `c-sharp` `rest` `rest-api` `yammer`
+
+<br>
+
+---
+
+<br>
+
+### simpoel
+**Overview:** A social utility web application to help connect people to communities.
+<br><br>
+**Description:** This project was initially created to help Indonesian expats connect with their local communities, providing basic forum and event management functionalities. Extensive work has been put into making the architecture more modular, which ultimate goal is to allow self-hosting, custom branding, and multi-tenancy setup.
+<br><br>
+**Link (Web):** [https://www.simpoel.com](https://www.simpoel.com)<br>
+**Link (App Store):** [Simpoel TK](itunes.apple.com/us/app/simpoel-tk/id1194924450)<br>
+**Link (Play Store):** [Simpoel TK](https://play.google.com/store/apps/details?id=com.improvid.simpoeltk&hl=en)
+<br><br>
+**Tags:** `akka` `android` `aws` `ionic` `ios` `play-framework` `postgresql` `scala`
