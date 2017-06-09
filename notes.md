@@ -65,4 +65,5 @@ The following is a list of useful global SBT plugins I'm using in my Scala / SBT
 * [sbt-dependency-graph](https://github.com/jrudolph/sbt-dependency-graph) - Add support to visualize dependency graph within SBT (supports both ASCII and HTML output).
 * [sbt-dependency-updates](https://github.com/rtimush/sbt-updates) - Add support to fetch and display available dependency updates in current project.
 * [sbt-ensime](http://ensime.org/build_tools/sbt/) - Adds an SBT command to generates `.ensime` file in SBT projects for use by [ENSIME](http://ensime.org/) (e.g. in Atom, emacs, or VS Code).
+* [sbt-stats](https://github.com/orrsella/sbt-stats) - Provides source code statistics in individual or aggregate project.
 * [scala-clippy](https://github.com/softwaremill/scala-clippy) - Improved compiler error messages and syntax colorizer.
