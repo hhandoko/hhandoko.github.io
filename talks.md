@@ -6,6 +6,7 @@ permalink: /talks.html
 
 The following is a list of my past talks on various software development topics (latest first):
 
+* 2017 / 07 - [Streaming Applications with Akka Streams](#streaming-applications-with-akka-streams)
 * 2017 / 04 - [Dotty!](#dotty)
 * 2016 / 05 - [A Whirlwind Tour of Apache Mesos](#a-whirlwind-tour-of-apache-mesos)
 * 2015 / 08 - [.NET Actor Programming with Akka.NET](#net-actor-programming-with-akkanet)
@@ -17,8 +18,24 @@ The following is a list of my past talks on various software development topics 
 
 <br>
 
+### Streaming Applications with Akka Streams
+**Abstract:** Streaming applications is a new category of Big Data applications which epmhasizes support for non-hard real-time processing of information. It is important as the timeliness of data processing / analysis offers competitive advantage over competitors. This presentation will introduce streaming applications concepts, followed by a simple stream processing example with Akka Streams, demonstrating both linear processing and dataflow programming via GraphDSL.
+<br><br>
+**Event:** [geekcamp Indonesia](https://www.geekcamp.id/)
+<br><br>
+**Recorded Session:** [Streaming Applications with Akka Streams @ vidio.com](https://www.vidio.com/watch/793734-streaming-applications-with-akka-streams-herdy-handoko)<br>
+**Slides:** [Streaming Applications with Akka Streams @ slides.com](https://slides.com/hhandoko/streaming-applications/) 
+<br><br>
+**Tags:** `akka` `akka-streams` `dataflow` `functional-programming` `graphdsl` `scala`
+
+<br>
+
+---
+
+<br>
+
 ### Dotty!
-**Abstract:** Dotty is the next-generation Scala compiler currently in active development. In this  presentation, we will learn about what Dotty is, its current state, developer tooling support, and the plans for the future.
+**Abstract:** Dotty is the next-generation Scala compiler currently in active development. In this presentation, we will learn about what Dotty is, its current state, developer tooling support, and the plans for the future.
 <br><br>
 **Event:** [Singapore Scala Programmers Meetup](https://www.meetup.com/Singapore-Scala-Programmers/events/238821807/)
 <br><br>
