@@ -19,12 +19,12 @@ The following is a list of my past talks on various software development topics 
 <br>
 
 ### Streaming Applications with Akka Streams
-**Abstract:** Streaming applications is a new category of Big Data applications which epmhasizes support for non-hard real-time processing of information. It is important as the timeliness of data processing / analysis offers competitive advantage over competitors. This presentation will introduce streaming applications concepts, followed by a simple stream processing example with Akka Streams, demonstrating both linear processing and dataflow programming via GraphDSL.
+**Abstract:** Streaming applications is a new category of Big Data applications which emphasizes support for non-hard real-time processing of information. It is important as the timeliness of data processing / analysis offers competitive advantage over competitors. This presentation will introduce streaming applications concepts, followed by a simple stream processing example with Akka Streams, demonstrating both linear processing and dataflow programming via GraphDSL.
 <br><br>
 **Event:** [geekcamp Indonesia](https://www.geekcamp.id/)
 <br><br>
-**Recorded Session:** [Streaming Applications with Akka Streams @ vidio.com](https://www.vidio.com/watch/793734-streaming-applications-with-akka-streams-herdy-handoko)<br>
-**Slides:** [Streaming Applications with Akka Streams @ slides.com](https://slides.com/hhandoko/streaming-applications/) 
+**Recorded Session:** [Streaming Applications with Akka Streams @ Vidio](https://www.vidio.com/watch/793734-streaming-applications-with-akka-streams-herdy-handoko)<br>
+**Slides:** [Streaming Applications with Akka Streams @ Slides](https://slides.com/hhandoko/streaming-applications/) 
 <br><br>
 **Tags:** `akka` `akka-streams` `dataflow` `functional-programming` `graphdsl` `scala`
 
@@ -40,7 +40,7 @@ The following is a list of my past talks on various software development topics 
 **Event:** [Singapore Scala Programmers Meetup](https://www.meetup.com/Singapore-Scala-Programmers/events/238821807/)
 <br><br>
 **Recorded Session:** [Dotty! @ Engineers.SG](https://engineers.sg/video/dotty-singapore-scala-programmers--1653)<br>
-**Slides:** [Dotty! @ slides.com](http://slides.com/hhandoko/scala-meetup-sg-2017-04-dotty) 
+**Slides:** [Dotty! @ Slides](http://slides.com/hhandoko/scala-meetup-sg-2017-04-dotty) 
 <br><br>
 **Tags:** `dotty` `scala`
 

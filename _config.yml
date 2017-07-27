@@ -20,21 +20,23 @@
 # ~~~~~~
 title: Reverie
 description: >
-  Personal blog of Herdy Handoko, software engineer based in Singapore.
+  Personal blog of Herdy, a software engineer based in Singapore.
   Focusing on web technologies, interested in distributed computing, concurrency,
   and the actor model.
   Scala, Play, Akka, Kotlin, Elixir, Phoenix, C#, and ServiceStack.
 baseurl: ""
-url: "https://www.hhandoko.com"
+url: "http://www.hhandoko.com"
+google_analytics: UA-46393609-2
 
 # User settings
 # ~~~~~~
+author: Herdy Handoko
 username: hhandoko
 user_title: Herdy Handoko
 user_description: Software Engineer based in Singapore
 email: herdy.handoko@gmail.com
 twitter_username: _hhandoko
-github_username:  hhandoko
+github_username: hhandoko
 
 # Build settings
 # ~~~~~~
