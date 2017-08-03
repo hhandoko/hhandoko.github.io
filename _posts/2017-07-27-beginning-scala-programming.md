@@ -13,7 +13,7 @@ tags: update
 
 ### "But there are other, more elegant programming languages out there&hellip;"
 
-[Scala is not perfect](http://www.lihaoyi.com/post/WartsoftheScalaProgrammingLanguage.html), but it is a pragmatic one. I am enjoying the flexibility and power it offers while being able to tap into the rich and diverse JVM ecosystem. By no means Scala should be the only programming language you use, but it does strike a nice balance between: usability, community size, and employment opportunity :)
+[Scala is not perfect](http://www.lihaoyi.com/post/WartsoftheScalaProgrammingLanguage.html), but it is a pragmatic one. I am enjoying the flexibility and power it offers while being able to tap into the rich and diverse JVM ecosystem. By no means Scala should be the only programming language you use, but it does strike a nice balance between: usability, community size, and employment opportunity <img draggable="false" class="emoji" style="margin-top:-3px" alt="😜" src="https://twemoji.maxcdn.com/16x16/1f61c.png">
 
 <br>
 
@@ -37,7 +37,7 @@ It depends, I think there are some contributing factors here:
 <br><br>
 * __Scala code molds according to the engineering culture__<br>Because Scala is flexible, from [syntax styles](https://github.com/jsuereth/scala-arm/wiki/Basic-Usage), choice of libraries, to architecture, very often new developers have to put in non-trivial effort to match and adapt to the existing team's culture. Regardless, these pain point can be alleviated through mentoring and / or pair programming.
 <br><br>
-* __Scala evolves relatively quickly__<br>Scala releases is highly iterative and it moves at lightning speed compared to languages such as Java. Syntax styles, design patterns, and libraries that was considered best practices three years ago might already be outdated now. While most library maintainers keep up, developers (new and experienced alike) need to pay special attention when using Scala code found in older blog posts and StackOverflow responses.
+* __Scala evolves relatively quickly__<br>Scala releases are highly iterative and changes faster compared to languages such as Java. Syntax styles, design patterns, and libraries that was considered best practices three years ago might already be outdated now. While most library maintainers keep up, developers (new and experienced alike) need to pay special attention when using Scala code found in blog posts and StackOverflow responses. Check the publish date <img draggable="false" class="emoji" style="margin-top:-8px" alt="👌" src="https://twemoji.maxcdn.com/16x16/1f44c.png">
 
 <br>
 
@@ -71,7 +71,7 @@ Skip a bunch of installation steps and just get right to coding! Both websites a
 
 #### "How to run it on my machine?"
 
-Well, it doesn't surprise me if you think Scala is awesome :) Depending on what you want to do next:
+Well, it doesn't surprise me if you think Scala is awesome <img draggable="false" class="emoji" style="margin-top:-5px" alt="😁" src="https://twemoji.maxcdn.com/16x16/1f601.png"> Depending on what you want to do next:
 
 * Install Java SDK 1.8 (I recommend [Azul Zulu](http://www.azul.com/downloads/zulu/)), to run your application.
 * For interactive console / REPL only:
@@ -131,13 +131,13 @@ Learning is much better together!
 
 <u>Referenced blogs, docs, and presentations (A-Z):</u>
 
-* *'Code is Prose'* by Matthew Bischoff<br>[https://medium.com/@mb/code-is-prose-18461ee400e7](https://medium.com/@mb/code-is-prose-18461ee400e7)
+* *'Code is Prose'* by __Matthew Bischoff__<br>[https://medium.com/@mb/code-is-prose-18461ee400e7](https://medium.com/@mb/code-is-prose-18461ee400e7)
 <br><br>
-* *'Readable Scala'* by Manabu Nakamura<br>[gakuzzzz.github.io/slides/readable_scala/](gakuzzzz.github.io/slides/readable_scala/)
+* *'Readable Scala'* by __Manabu Nakamura__<br>[gakuzzzz.github.io/slides/readable_scala/](gakuzzzz.github.io/slides/readable_scala/)
 <br><br>
-* *'Scala ARM (Automatic Resource Management) Basic Usage'* Wiki page by Josh Suereth<br>[https://github.com/jsuereth/scala-arm/wiki/Basic-Usage](https://github.com/jsuereth/scala-arm/wiki/Basic-Usage)
+* *'Scala ARM (Automatic Resource Management) Basic Usage'* Wiki page by __Josh Suereth__<br>[https://github.com/jsuereth/scala-arm/wiki/Basic-Usage](https://github.com/jsuereth/scala-arm/wiki/Basic-Usage)
 <br><br>
-* *'Warts of the Scala Programming Language'* by Li Haoyi<br>[http://www.lihaoyi.com/post/WartsoftheScalaProgrammingLanguage.html](http://www.lihaoyi.com/post/WartsoftheScalaProgrammingLanguage.html)
+* *'Warts of the Scala Programming Language'* by __Li Haoyi__<br>[http://www.lihaoyi.com/post/WartsoftheScalaProgrammingLanguage.html](http://www.lihaoyi.com/post/WartsoftheScalaProgrammingLanguage.html)
 
 <br>
 
