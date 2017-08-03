@@ -33,17 +33,17 @@ Well, for the reasons aforementioned! I'll be honest, I didn't seek out to learn
 
 It depends, I think there are some contributing factors here:
 
-* __Scala is highly contextual__<br>It will be challenging for Scala beginners to identify these contexts (e.g. the use of symbols, implicits, syntax styles), but once learnt it is quite amazing how a concise piece of code can carry so much information. I highly recommend going through Manabu Nakamura's slides on '[Readable Scala](http://gakuzzzz.github.io/slides/readable_scala/)' presented at [Scala Matsuri 2017](http://2017.scalamatsuri.org/index_en.html) for a quick run-through.
+* __Scala is highly contextual__<br>It will be challenging for Scala beginners to identify these contexts (e.g. the use of symbols, implicits, syntax styles), but once learnt it's quite amazing how a concise piece of code can carry so much information. I highly recommend going through Manabu Nakamura's slides on '[Readable Scala](http://gakuzzzz.github.io/slides/readable_scala/)' presented at [Scala Matsuri 2017](http://2017.scalamatsuri.org/index_en.html).
 <br><br>
-* __Scala code molds according to the engineering culture__<br>Because Scala is flexible, from [syntax styles](https://github.com/jsuereth/scala-arm/wiki/Basic-Usage), choice of libraries, to architecture, very often new developers have to put in non-trivial effort to match and adapt to the existing team's culture. Regardless, these pain point can be alleviated through mentoring and / or pair programming.
+* __Scala code molds according to the engineering culture__<br>Because Scala is flexible, from [syntax styles](https://github.com/jsuereth/scala-arm/wiki/Basic-Usage), choice of libraries, to architecture, it's not uncommon for new developers putting in non-trivial effort to match and adapt to the existing team's culture. Regardless, have mentoring and / or pair programming in place.
 <br><br>
-* __Scala evolves relatively quickly__<br>Scala releases are highly iterative and changes faster compared to languages such as Java. Syntax styles, design patterns, and libraries that was considered best practices three years ago might already be outdated now. While most library maintainers keep up, developers (new and experienced alike) need to pay special attention when using Scala code found in blog posts and StackOverflow responses. Check the publish date <img draggable="false" class="emoji" style="margin-top:-8px" alt="👌" src="https://twemoji.maxcdn.com/16x16/1f44c.png">
+* __Scala evolves relatively quickly__<br>Scala releases are highly iterative and changes faster compared to languages such as Java. Syntax styles, design patterns, and libraries that was considered best practices three years ago might already be outdated now. Developers (new and experienced alike) need to pay special attention when using Scala code found in blog posts and StackOverflow responses. Check the publish date <img draggable="false" class="emoji" style="margin-top:-8px" alt="👌" src="https://twemoji.maxcdn.com/16x16/1f44c.png">
 
 <br>
 
 ### "But where do I start?"
 
-&hellip;you ask? Being a general purpose language, Scala materials out there can cover anything from concurrent programming to recommendation systems. I hope to address various different category separately in the future, but here are some good resources to start with:
+&hellip;you ask? Being a general purpose language, Scala materials out there can cover anything from concurrent programming to recommendation systems. I hope to address various different categories separately in the future, but here are some good resources to get you on your journey:
 
 * [I just want to give it a quick spin&hellip;](#i-just-want-to-give-it-a-quick-spin)
 * [How to run it on my machine?](#how-to-run-it-on-my-machine)
@@ -62,7 +62,7 @@ Last but not least, check out [Awesome Scala](https://github.com/lauris/awesome-
 
 #### "I just want to give it a quick spin&hellip;"
 
-Skip a bunch of installation steps and just get right to coding! Both websites are free, but requires you to link your GitHub account info to unlock full functionalities.
+Skip a bunch of installation steps and just get right to coding! Both websites are free, but requires you to link your GitHub account to unlock the entire functionalities.
 
 1. Head over to [Scala Exercises](https://www.scala-exercises.org/) and try out the `STD LIB` exercises (ignore the others for now).
 1. Play around with [Scastie](https://scastie.scala-lang.org/), a web-based interactive Scala editor.
@@ -86,7 +86,7 @@ Well, it doesn't surprise me if you think Scala is awesome <img draggable="false
 
 #### "I am a Java developer"
 
-I'm glad to hear that, it means you are already familiar with the Java ecosystem and should have a head-start in Scala programming. However, besides learning the language, I would also recommend you to spend a bit of time to learn SBT (Scala Build Tool). While you can use Maven or Gradle for Scala projects, it will be a far more pleasant experience to use SBT:
+I'm glad to hear that, it means you are already familiar with the Java ecosystem and should have a head-start in Scala programming. However, besides learning the language, I would also recommend you to spend a bit of time to learn SBT (Scala Build Tool). While you can use Maven or Gradle for Scala projects, SBT will be a far more pleasant experience:
 
 * [SBT: The Missing Tutorial](https://github.com/shekhargulati/52-technologies-in-2016/blob/master/02-sbt/README.md) gives a quick rundown of SBT basics.
 * [SBT in Action](https://www.manning.com/books/sbt-in-action) covers SBT in depth, from extending your project workflow to creating plugins.
