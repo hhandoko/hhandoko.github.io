@@ -111,6 +111,7 @@ Once you have an understanding of basic Scala concepts, now it's the time to exp
 * [Akka Concurrency](https://www.artima.com/shop/akka_concurrency) covers most of the core concepts in Akka actor model programming.<br>*Note: Google for updated examples as the ones in the book contains a few bugs and hasn't been updated.*
 * [Functional Programing in Scala](https://www.manning.com/books/functional-programming-in-scala) (a.k.a. the Red Book) is pretty much a reference for developers exploring the pure-FP approach in Scala.
 * [Functional Programming in Scala Specialization](https://www.coursera.org/specializations/scala) is a good course to explore FP concepts within Scala, delivered by Prof. Odersky himself.
+* [Introduction to programming with dependent types in Scala](https://stepik.org/course/ThCS-Introduction-to-programming-with-dependent-types-in-Scala-2294/) is an FP course which covers type-level programming in Scala, suitable for developers already familiar with type systems and experience in FP concepts.
 * [Scala in Depth](https://www.manning.com/books/scala-in-depth) takes you further into more Scala features and eases you into advanced FP concepts.
 
 <br>
@@ -147,4 +148,4 @@ Learning is much better together!
 
 <u>Updates:</u>
 
-__[2017-08-03]__ &mdash; Added community resources and Scala for Java programmers based on feedback
+__[2017-08-03]__ &mdash; Added community resources and Scala for Java developers based on feedback
