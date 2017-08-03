@@ -5,26 +5,54 @@ date:   2017-07-27 10:45:58 +0800
 categories: posts
 tags: update
 ---
-Recently someone asked me *"Why Scala?"*, or a variation of it, e.g. *"Why do you use Scala?"*, or *"Why should I learn Scala?"*. The question had came up more and more often as Scala becomes more 'mainstream' and people are gaining more awareness of it.
+### "Why do you use Scala?"
 
-I'll be honest, I didn't seek out to learn Scala (I'll tell this story later), but I am thankful to have learnt it: a language that's enjoyable to work in and supported by the rich and diverse JVM ecosystem.<!--more-->
+&hellip;is a question that came up more and more often as people are gaining more awareness of the programming language. I normally spoke of my own personal experience, but for the most part, Scala is my go-to language because it offers me flexibility on how I can express my thoughts into code. '[Code is Prose](https://medium.com/@mb/code-is-prose-18461ee400e7)' is certainly very apt here. <!--more-->
 
-For the most part, I am enjoying Scala because it offers me flexibility on how I can express my thoughts into code. '[Code is Prose](https://medium.com/@mb/code-is-prose-18461ee400e7)' is certainly very apt, and only possible because of its approach by way of a hybrid __Object-Oriented__ (OO) and __Functional Programming__ (FP), complemented with a __rich type system__.
+<br>
 
-*"I heard Scala code is impossible to read!"*. It depends, I think there are two contributing factors here:
+### "But there are other, more elegant programming languages out there&hellip;"
 
-* __Scala is full of context__<br>It will be hard and challenging for Scala beginners to identify them (e.g. the use of implicits, syntax styles), but once learnt it's quite amazing how a concise piece of code can carry so much information.
+[Scala is not perfect](http://www.lihaoyi.com/post/WartsoftheScalaProgrammingLanguage.html), but it is a pragmatic one. I am enjoying the flexibility and power it offers while being able to tap into the rich and diverse JVM ecosystem. By no means Scala should be the only programming language you use, but it does strike a nice balance between: usability, community size, and employment opportunity :)
+
+<br>
+
+### "Java has lambdas!"
+
+But Scala is much, much more than lambdas. Interesting things can happen when you have a language that combines __Object-Oriented__ (OO) with __Functional Programming__ (FP) approach, complemented with a __rich type system__. Pattern matching, Algrebraic Data Types (ADT), and monadic comprehensions are some *very useful* constructs that does not exists 'natively' in Java.
+
+<br>
+
+### "Why should I learn Scala?"
+
+Well, for the reasons aforementioned! I'll be honest, I didn't seek out to learn it. What began as an exercise to keep a hobby project up-to-date (Play 1.2 to 2.x migration) have allowed me to learn FP concepts, actor model, reactive systems, and many others.
+
+<br>
+
+### "I heard Scala code is impossible to read!"
+
+It depends, I think there are some contributing factors here:
+
+* __Scala is highly contextual__<br>It will be challenging for Scala beginners to identify these contexts (e.g. the use of symbols, implicits, syntax styles), but once learnt it is quite amazing how a concise piece of code can carry so much information. I highly recommend going through Manabu Nakamura's slides on '[Readable Scala](http://gakuzzzz.github.io/slides/readable_scala/)' presented at [Scala Matsuri 2017](http://2017.scalamatsuri.org/index_en.html) for a quick run-through.
 <br><br>
-* __Scala code molds according to *YOUR* engineering culture__<br>Because Scala offers a high degree of flexibility, it requires significant effort for new developers to match or adapt to the existing team and culture. For example: some might prefer the 'better Java' approach, while others lean towards pure FP.
+* __Scala code molds according to the engineering culture__<br>Because Scala is flexible, from [syntax styles](https://github.com/jsuereth/scala-arm/wiki/Basic-Usage), choice of libraries, to architecture, very often new developers have to put in non-trivial effort to match and adapt to the existing team's culture. Regardless, these pain point can be alleviated through mentoring and / or pair programming.
+<br><br>
+* __Scala evolves relatively quickly__<br>Scala releases is highly iterative and it moves at lightning speed compared to languages such as Java. Syntax styles, design patterns, and libraries that was considered best practices three years ago might already be outdated now. While most library maintainers keep up, developers (new and experienced alike) need to pay special attention when using Scala code found in older blog posts and StackOverflow responses.
 
-They are definitely known challenges, but something that can be overcome with active effort. So don't be discouraged! Learn Scala for all the good reason aforementioned.
+<br>
 
-*"But where do I start?"* you ask? Well below are some resources to get you started. There are others I can recommend; however, being a general purpose language, Scala materials out there covers everything from concurrent programming to recommendation systems. I hope to address a few different category separately in the future.
+### "But where do I start?"
+
+&hellip;you ask? Being a general purpose language, Scala materials out there can cover anything from concurrent programming to recommendation systems. I hope to address various different category separately in the future, but here are some good resources to start with:
 
 * [I just want to give it a quick spin&hellip;](#i-just-want-to-give-it-a-quick-spin)
-* [How do run it on my machine?](#how-do-run-it-on-my-machine)
+* [How to run it on my machine?](#how-to-run-it-on-my-machine)
+* [I am a Java developer](#i-am-a-java-developer)
 * [I want to learn more Scala](#i-want-to-learn-more-scala)
 * [I need to level up in Scala!](#i-need-to-level-up-in-scala)
+* [Where can I find other Scala developers?](#where-can-i-find-other-scala-developers)
+
+Last but not least, check out [Awesome Scala](https://github.com/lauris/awesome-scala) for a community-curated list of awesome Scala libraries.
 
 <br>
 
@@ -32,22 +60,16 @@ They are definitely known challenges, but something that can be overcome with ac
 
 <br>
 
-### "I just want to give it a quick spin&hellip;"
+#### "I just want to give it a quick spin&hellip;"
 
-Skip a bunch of installation steps and just get right to coding!
+Skip a bunch of installation steps and just get right to coding! Both websites are free, but requires you to link your GitHub account info to unlock full functionalities.
 
 1. Head over to [Scala Exercises](https://www.scala-exercises.org/) and try out the `STD LIB` exercises (ignore the others for now).
 1. Play around with [Scastie](https://scastie.scala-lang.org/), a web-based interactive Scala editor.
 
-*Note: Both website are free, but requires you to link your GitHub account info to unlock full functionalities*
-
 <br>
 
----
-
-<br>
-
-### "How do run it on my machine?"
+#### "How to run it on my machine?"
 
 Well, it doesn't surprise me if you think Scala is awesome :) Depending on what you want to do next:
 
@@ -62,11 +84,17 @@ Well, it doesn't surprise me if you think Scala is awesome :) Depending on what 
 
 <br>
 
----
+#### "I am a Java developer"
+
+I'm glad to hear that, it means you are already familiar with the Java ecosystem and should have a head-start in Scala programming. However, besides learning the language, I would also recommend you to spend a bit of time to learn SBT (Scala Build Tool). While you can use Maven or Gradle for Scala projects, it will be a far more pleasant experience to use SBT:
+
+* [SBT: The Missing Tutorial](https://github.com/shekhargulati/52-technologies-in-2016/blob/master/02-sbt/README.md) gives a quick rundown of SBT basics.
+* [SBT in Action](https://www.manning.com/books/sbt-in-action) covers SBT in depth, from extending your project workflow to creating plugins.
+* [Awesome SBT Plugins](https://github.com/meloniasty/awesome-sbt-plugins) lists various plugins to enhance your SBT capabilities. Also check out [the list of SBT plugins I'm using](http://www.hhandoko.com/notes.html#sbt-plugins).
 
 <br>
 
-### "I want to learn more Scala"
+#### "I want to learn more Scala"
 
 That's great! I can point you to a few resources to help you improve your Scala knowledge:
 
@@ -76,15 +104,47 @@ That's great! I can point you to a few resources to help you improve your Scala 
 
 <br>
 
+#### "I need to level up in Scala!"
+
+Once you have an understanding of basic Scala concepts, now it's the time to explore Actors and the functional side of Scala:
+
+* [Akka Concurrency](https://www.artima.com/shop/akka_concurrency) covers most of the core concepts in Akka actor model programming.<br>*Note: Google for updated examples as the ones in the book contains a few bugs and hasn't been updated.*
+* [Functional Programing in Scala](https://www.manning.com/books/functional-programming-in-scala) (a.k.a. the Red Book) is pretty much a reference for developers exploring the pure-FP approach in Scala.
+* [Functional Programming in Scala Specialization](https://www.coursera.org/specializations/scala) is a good course to explore FP concepts within Scala, delivered by Prof. Odersky himself.
+* [Scala in Depth](https://www.manning.com/books/scala-in-depth) takes you further into more Scala features and eases you into advanced FP concepts.
+
+<br>
+
+#### "Where can I find other Scala developers?"
+
+Learning is much better together! 
+
+* [Scala on Gitter](https://gitter.im/scala/scala) is the official Scala channel on Gitter messaging platform.
+* [#scala on IRC](irc://irc.freenode.net/#scala) for various Scala-related chat on IRC.
+* [Scala Space](http://scala.space/) shows various Scala-related groups near you, such as Meetup groups.
+
+<br>
+
 ---
 
 <br>
 
-### "I need to level up in Scala!"
+<u>Referenced blogs, docs, and presentations (A-Z):</u>
 
-Once you have an understanding of basic Scala concepts, now it's the time to explore Actors and the functional side of Scala:
+* *'Code is Prose'* by Matthew Bischoff<br>[https://medium.com/@mb/code-is-prose-18461ee400e7](https://medium.com/@mb/code-is-prose-18461ee400e7)
+<br><br>
+* *'Readable Scala'* by Manabu Nakamura<br>[gakuzzzz.github.io/slides/readable_scala/](gakuzzzz.github.io/slides/readable_scala/)
+<br><br>
+* 'Scala ARM (Automatic Resource Management) Basic Usage' Wiki page by Josh Suereth<br>[https://github.com/jsuereth/scala-arm/wiki/Basic-Usage](https://github.com/jsuereth/scala-arm/wiki/Basic-Usage)
+<br><br>
+* *'Warts of the Scala Programming Language'* by Li Haoyi<br>[http://www.lihaoyi.com/post/WartsoftheScalaProgrammingLanguage.html](http://www.lihaoyi.com/post/WartsoftheScalaProgrammingLanguage.html)
 
-* [Akka Concurrency](https://www.artima.com/shop/akka_concurrency) covers most of the core concepts in Akka actor model programming. *Note: Google updated examples as the ones in the book contains a few bugs and hasn't been updated.*
-* [Functional Programing in Scala](https://www.manning.com/books/functional-programming-in-scala) is pretty much a reference book for developers exploring the pure-FP approach in Scala.
-* [Functional Programming in Scala Specialization](https://www.coursera.org/specializations/scala) is a good course to explore FP concepts within Scala, delivered by Prof. Odersky himself.
-* [Scala in Depth](https://www.manning.com/books/scala-in-depth) takes you further into more Scala features and eases you into advanced FP concepts.
+<br>
+
+---
+
+<br>
+
+<u>Updates:</u>
+
+__[2017-08-03]__ &mdash; Added community resources and Scala for Java programmers based on feedback
