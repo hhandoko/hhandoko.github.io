@@ -135,7 +135,7 @@ Learning is much better together!
 <br><br>
 * *'Readable Scala'* by Manabu Nakamura<br>[gakuzzzz.github.io/slides/readable_scala/](gakuzzzz.github.io/slides/readable_scala/)
 <br><br>
-* 'Scala ARM (Automatic Resource Management) Basic Usage' Wiki page by Josh Suereth<br>[https://github.com/jsuereth/scala-arm/wiki/Basic-Usage](https://github.com/jsuereth/scala-arm/wiki/Basic-Usage)
+* *'Scala ARM (Automatic Resource Management) Basic Usage'* Wiki page by Josh Suereth<br>[https://github.com/jsuereth/scala-arm/wiki/Basic-Usage](https://github.com/jsuereth/scala-arm/wiki/Basic-Usage)
 <br><br>
 * *'Warts of the Scala Programming Language'* by Li Haoyi<br>[http://www.lihaoyi.com/post/WartsoftheScalaProgrammingLanguage.html](http://www.lihaoyi.com/post/WartsoftheScalaProgrammingLanguage.html)
 

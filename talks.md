@@ -6,11 +6,11 @@ permalink: /talks.html
 
 The following is a list of my past talks on various software development topics (latest first):
 
-* 2017 / 07 - [Streaming Applications with Akka Streams](#streaming-applications-with-akka-streams)
-* 2017 / 04 - [Dotty!](#dotty)
-* 2016 / 05 - [A Whirlwind Tour of Apache Mesos](#a-whirlwind-tour-of-apache-mesos)
-* 2015 / 08 - [.NET Actor Programming with Akka.NET](#net-actor-programming-with-akkanet)
-* 2015 / 07 - [Actor Programming with Akka.NET](#actor-programming-with-akkanet)
+* 2017 / 07 &mdash; [Streaming Applications with Akka Streams](#streaming-applications-with-akka-streams)
+* 2017 / 04 &mdash; [Dotty!](#dotty)
+* 2016 / 05 &mdash; [A Whirlwind Tour of Apache Mesos](#a-whirlwind-tour-of-apache-mesos)
+* 2015 / 08 &mdash; [.NET Actor Programming with Akka.NET](#net-actor-programming-with-akkanet)
+* 2015 / 07 &mdash; [Actor Programming with Akka.NET](#actor-programming-with-akkanet)
 
 <br>
 
