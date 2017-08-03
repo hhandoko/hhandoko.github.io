@@ -28,7 +28,7 @@ baseurl: ""
 url: "http://www.hhandoko.com"
 google_analytics: UA-46393609-2
 disqus:
-  shortname: hhandoko.disqus.com
+  shortname: hhandoko
 
 # User settings
 # ~~~~~~
