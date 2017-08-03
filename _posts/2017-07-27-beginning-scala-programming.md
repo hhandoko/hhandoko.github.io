@@ -134,7 +134,7 @@ Learning is much better together!
 
 * *'Code is Prose'* by __Matthew Bischoff__<br>[https://medium.com/@mb/code-is-prose-18461ee400e7](https://medium.com/@mb/code-is-prose-18461ee400e7)
 <br><br>
-* *'Readable Scala'* by __Manabu Nakamura__<br>[gakuzzzz.github.io/slides/readable_scala/](gakuzzzz.github.io/slides/readable_scala/)
+* *'Readable Scala'* by __Manabu Nakamura__<br>[http://gakuzzzz.github.io/slides/readable_scala/](http://gakuzzzz.github.io/slides/readable_scala/)
 <br><br>
 * *'Scala ARM (Automatic Resource Management) Basic Usage'* Wiki page by __Josh Suereth__<br>[https://github.com/jsuereth/scala-arm/wiki/Basic-Usage](https://github.com/jsuereth/scala-arm/wiki/Basic-Usage)
 <br><br>
