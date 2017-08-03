@@ -5,27 +5,53 @@ date:   2017-07-27 10:45:58 +0800
 categories: posts
 tags: update
 ---
+<img draggable="false" class="emoji" style="margin-top:-3px" alt="👋" src="https://twemoji.maxcdn.com/16x16/1f44b.png"> *Hello! If you're already sold on Scala, feel free to skip to the [getting started section](#but-where-do-i-start)* <img draggable="false" class="emoji" style="margin-top:-3px" alt="👋" src="https://twemoji.maxcdn.com/16x16/1f44b.png">
+
+<br>
+
 ### "Why do you use Scala?"
 
-&hellip;is a question that came up more and more often as people are gaining more awareness of the programming language. I normally spoke of my own personal experience, but for the most part, Scala is my go-to language because it offers me flexibility on how I can express my thoughts into code. '[Code is Prose](https://medium.com/@mb/code-is-prose-18461ee400e7)' is certainly very apt here. <!--more-->
+&hellip;is a question that came up more and more often as people are gaining more awareness of the programming language. I normally spoke of my own personal experience, but for the most part, Scala is my go-to language because it offers me flexibility in how I can express my thoughts into code. '[Code is Prose](https://medium.com/@mb/code-is-prose-18461ee400e7)' is certainly very apt here (more on this later).<!--more-->
 
 <br>
 
 ### "But there are other, more elegant programming languages out there&hellip;"
 
-[Scala is not perfect](http://www.lihaoyi.com/post/WartsoftheScalaProgrammingLanguage.html), but it is a pragmatic one. I am enjoying the flexibility and power it offers while being able to tap into the rich and diverse JVM ecosystem. By no means Scala should be the only programming language you use, but it does strike a nice balance between: usability, community size, and employment opportunity <img draggable="false" class="emoji" style="margin-top:-3px" alt="😜" src="https://twemoji.maxcdn.com/16x16/1f61c.png">
+[Scala is not perfect](http://www.lihaoyi.com/post/WartsoftheScalaProgrammingLanguage.html), but it is pragmatic. I am enjoying the expressiveness and flexibility it offers while being able to tap into the rich and diverse JVM ecosystem. It does strike a nice balance between: usability, community size, and employment opportunity <img draggable="false" class="emoji" style="margin-top:-3px" alt="😜" src="https://twemoji.maxcdn.com/16x16/1f61c.png">
 
 <br>
 
 ### "Java has lambdas!"
 
-But Scala is much, much more than lambdas. Interesting things can happen when you have a language that combines __Object-Oriented__ (OO) with __Functional Programming__ (FP) approach, complemented with a __rich type system__. Pattern matching, Algrebraic Data Types (ADT), and monadic comprehensions are some *very useful* constructs that does not exists 'natively' in Java.
+But Scala is much, much more than lambdas. Interesting things can happen when you have a language that combines __Object-Oriented__ (OO) with __Functional Programming__ (FP) approach, complemented with a __rich type system__. Pattern matching, Algrebraic Data Types (ADT), and monadic comprehensions are some *very useful* constructs that do not exists 'natively' in Java.
 
-<br>
+To give a very quick example, observe the following Scala code:
 
-### "Why should I learn Scala?"
+```scala
+sealed trait Drink
+object Drink {
+  final case object Coffee extends Drink
+  final case object Tea    extends Drink
+  final case object Soda   extends Drink
+}
 
-Well, for the reasons aforementioned! I'll be honest, I didn't seek out to learn it. What began as an exercise to keep a hobby project up-to-date (Play 1.2 to 2.x migration) have allowed me to learn FP concepts, actor model, reactive systems, and many others.
+def whichBrand(d: Drink): String = {
+  import Drink._
+  d match {
+    case Coffee => "Starbucks"
+    case Tea    => "Dilmah"
+    //case Soda   => "Coca Cola"
+  }
+}
+```
+
+Note that match against `Soda` has been commented out. When compiling the above as-is, the compiler will throw a warning:
+
+```
+match may not be exhaustive. It would fail on the following input: Soda
+```
+
+A combination of pattern matching and ADT provides exhaustivity checks during compile-time. Of course, this is only one of many useful features available in Scala.
 
 <br>
 
@@ -35,9 +61,25 @@ It depends, I think there are some contributing factors here:
 
 * __Scala is highly contextual__<br>It will be challenging for Scala beginners to identify these contexts (e.g. the use of symbols, implicits, syntax styles), but once learnt it's quite amazing how a concise piece of code can carry so much information. I highly recommend going through Manabu Nakamura's slides on '[Readable Scala](http://gakuzzzz.github.io/slides/readable_scala/)' presented at [Scala Matsuri 2017](http://2017.scalamatsuri.org/index_en.html).
 <br><br>
-* __Scala code molds according to the engineering culture__<br>Because Scala is flexible, from [syntax styles](https://github.com/jsuereth/scala-arm/wiki/Basic-Usage), choice of libraries, to architecture, it's not uncommon for new developers putting in non-trivial effort to match and adapt to the existing team's culture. Regardless, have mentoring and / or pair programming in place.
+* __Scala code moulds according to the engineering culture__<br>Because Scala is flexible, from [syntax styles](https://github.com/jsuereth/scala-arm/wiki/Basic-Usage), choice of libraries, to architecture, it's not uncommon for new developers putting in non-trivial effort to match and adapt to the existing team's culture. Regardless, have mentoring and / or pair programming in place.
 <br><br>
-* __Scala evolves relatively quickly__<br>Scala releases are highly iterative and changes faster compared to languages such as Java. Syntax styles, design patterns, and libraries that was considered best practices three years ago might already be outdated now. Developers (new and experienced alike) need to pay special attention when using Scala code found in blog posts and StackOverflow responses. Check the publish date <img draggable="false" class="emoji" style="margin-top:-8px" alt="👌" src="https://twemoji.maxcdn.com/16x16/1f44c.png">
+* __Scala evolves relatively quickly__<br>Scala releases are highly iterative and changes faster compared to languages such as Java. Syntax styles, design patterns, and libraries that were considered best practices three years ago might already be outdated now. Developers (new and experienced alike) need to pay special attention when using Scala code found in blog posts and StackOverflow responses. Check the publish date <img draggable="false" class="emoji" style="margin-top:-5px" alt="👌" src="https://twemoji.maxcdn.com/16x16/1f44c.png">
+
+<br>
+
+### "Why should I learn Scala?"
+
+So let me reiterate again the *why* in hope of convincing you to learn Scala:
+
+<br>
+
+___<center>Scala helps you write expressive and maintainable code without sacrificing usability</center>___
+
+<br>
+
+Consider that most of the time we (developers) spent reading code as part of an effort to write new code. Despite the Scala 'tax' for new developers, code which is moulded to solve the particular problem at hand is more readable and leads to better long-term maintainability. You will also be able to leverage familiar tools when writing code and after deploying it to production: access to mature and proven Java libraries, toolkits (e.g. profiler), and IDEs such as Eclipse and IntelliJ IDEA.
+
+*As an aside: I didn't seek out to learn Scala, rather it began as an exercise to keep a hobby project up-to-date (Play Framework 1.2 to 2.x migration); though I am glad it has allowed me to learn FP concepts, actor model, reactive systems, and many others. Perhaps this is a story for another blog post some other day.*
 
 <br>
 
@@ -71,7 +113,7 @@ Skip a bunch of installation steps and just get right to coding! Both websites a
 
 #### "How to run it on my machine?"
 
-Well, it doesn't surprise me if you think Scala is awesome <img draggable="false" class="emoji" style="margin-top:-5px" alt="😁" src="https://twemoji.maxcdn.com/16x16/1f601.png"> Depending on what you want to do next:
+Well, it doesn't surprise me if you think Scala is awesome <img draggable="false" class="emoji" style="margin-top:-3px" alt="😁" src="https://twemoji.maxcdn.com/16x16/1f601.png"> Depending on what you want to do next:
 
 * Install Java SDK 1.8 (I recommend [Azul Zulu](http://www.azul.com/downloads/zulu/)), to run your application.
 * For interactive console / REPL only:
@@ -148,4 +190,4 @@ Learning is much better together!
 
 <u>Updates:</u>
 
-__[2017-08-03]__ &mdash; Added community resources and Scala for Java developers based on feedback
+__[2017-08-03]__ &mdash; Added community resources and incorporated feedback from fellow developers
