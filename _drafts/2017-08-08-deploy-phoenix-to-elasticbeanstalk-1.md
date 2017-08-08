@@ -49,8 +49,9 @@ __My goal is to share some knowledge on creating and deploying a standalone Phoe
 
 ### Out of Scope
 
-The following is only a basic example, there are other areas that I would like to research further and hopefully cover in future posts, such as:
+The following is only a basic example, covering only the basic Phoenix application structure, not an umbrella or multi-module ones. I'm still researching the following deployment topics, hopefully covering them in follow-up posts:
 
+* Ecto / database schema migrations on application start,
 * Erlang distribution and clustering, and
 * hot swapping when upgrading cluster.
 
@@ -65,6 +66,7 @@ To follow the 'setup, compile, and package' examples, ensure the following prere
 * [Erlang / OTP](http://www.erlang.org/downloads) `18.x` or above
 * [Elixir](https://elixir-lang.org/install.html) `1.4.x`
 * [Phoenix Framework](https://hexdocs.pm/phoenix/installation.html) `1.3.x`
+* [Node](https://nodejs.org/en/) `6.x` or above
 * [Docker](https://www.docker.com/) ([Mac](https://www.docker.com/docker-mac) \| [Win](https://www.docker.com/docker-windows)) &mdash; *tested on `17.06.0-ce-mac-19`*
 
 To follow the deployment examples, you'll need to have an AWS account and the AWS CLI installed and configured (or just take my word for it <img draggable="false" class="emoji" style="margin-top:-3px" alt="😜" src="https://twemoji.maxcdn.com/16x16/1f61c.png">)

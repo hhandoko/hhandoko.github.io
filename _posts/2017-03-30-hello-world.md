@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Hello World!"
-date:   2017-03-30 08:56:05 +0800
+title: "Hello World!"
+date: 2017-03-30 08:56:05 +0800
 categories: posts
 tags: update
 ---

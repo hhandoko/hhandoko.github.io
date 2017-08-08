@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Beginning Scala Programming"
-date:   2017-07-27 10:45:58 +0800
+title: "Beginning Scala Programming"
+date: 2017-07-27 10:45:58 +0800
 categories: posts
 tags: beginner scala
 ---
