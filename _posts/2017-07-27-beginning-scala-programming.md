@@ -3,7 +3,7 @@ layout: post
 title:  "Beginning Scala Programming"
 date:   2017-07-27 10:45:58 +0800
 categories: posts
-tags: update
+tags: beginner scala
 ---
 <img draggable="false" class="emoji" style="margin-top:-3px" alt="👋" src="https://twemoji.maxcdn.com/16x16/1f44b.png"> *Hello! If you're already sold on Scala, feel free to skip to the [getting started section](#but-where-do-i-start)* <img draggable="false" class="emoji" style="margin-top:-3px" alt="👋" src="https://twemoji.maxcdn.com/16x16/1f44b.png">
 
