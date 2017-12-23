@@ -28,7 +28,7 @@ In addition, I am actively working on a social utility application with a group 
 <br><br>
 **License:** Apache version 2.0
 <br><br>
-**Link:** [builtamont-oss / cassandra-migration](https://github.com/builtamont-oss/cassandra-migration) [[Wiki](https://github.com/builtamont-oss/cassandra-migration/wiki)]
+**Link:** [hhandoko / cassandra-migration](https://github.com/hhandoko/cassandra-migration) [[Wiki](https://github.com/hhandoko/cassandra-migration/wiki)]
 <br><br>
 **Tags:** `cassandra` `datastax-enterprise` `flyway` `java` `kotlin` `schema` `schema-migrations`
 
@@ -45,7 +45,7 @@ In addition, I am actively working on a social utility application with a group 
 <br><br>
 **License:** MIT
 <br><br>
-**Link:** [builtamont-oss / play2-scala-pdf](https://github.com/builtamont-oss/play2-scala-pdf)
+**Link:** [hhandoko / play2-scala-pdf](https://github.com/hhandoko/play2-scala-pdf)
 <br><br>
 **Tags:** `play-framework` `pdf` `scala`
 
