@@ -7,6 +7,7 @@ permalink: /notes.html
 A collection of useful notes on development environment configurations and other findings.
 
 * [Ubuntu Desktop Setup Tips](#ubuntu-desktop-setup-tips)
+* [Gradle Plugins](#gradle-plugins)
 * [SBT Plugins](#sbt-plugins)
 
 <br>
@@ -50,6 +51,18 @@ The following is a collection of resources (e.g. packages, PPAs, themes) I'm usi
 #### Other
 
 * [Restore grub](https://itsfoss.com/no-grub-windows-linux/) - Restore grub after Windows 10 update (`bcdedit /set {bootmgr} path \EFI\ubuntu\grubx64.efi` in command shell).
+
+<br>
+
+---
+
+<br>
+
+### Gradle Plugins
+
+The following is a list of useful Gradle plugins I'm using in my Java / Kotlin / Scala projects:
+
+* [gradle-stats](https://github.com/aalmiray/stats-gradle-plugin) - Provides source code statistics in individual or aggregate project.
 
 <br>
 
