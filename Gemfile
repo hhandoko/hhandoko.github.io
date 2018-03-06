@@ -25,7 +25,7 @@ ruby RUBY_VERSION
 # ~~~~~~
 # NOTE: If upgrading Jekyll version, run `bundle install` then `bundle exec`, e.g.
 #       `bundle exec jekyll serve`.
-gem "jekyll", "3.4.2"
+#gem "jekyll", "3.7.3"
 
 # GitHub Pages
 # ~~~~~~
@@ -43,6 +43,9 @@ group :jekyll_plugins do
    gem "jekyll-feed", "~> 0.6"
 end
 
-# NOTE: Windows does not include zoneinfo files, so bundle the tzinfo-data gem
+# Windows utils
+# ~~~~~~
+# Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
-
+# Performance-booster for watching directories on Windows
+gem "wdm", "~> 0.1.0" if Gem.win_platform?
