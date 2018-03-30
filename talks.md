@@ -6,11 +6,27 @@ permalink: /talks.html
 
 The following is a list of my past talks on various software development topics (latest first):
 
+* 2018 / 03 &mdash; [2018 Scala Matsuri, a Recap](#2018-scala-matsuri-a-recap)
 * 2017 / 07 &mdash; [Streaming Applications with Akka Streams](#streaming-applications-with-akka-streams)
 * 2017 / 04 &mdash; [Dotty!](#dotty)
 * 2016 / 05 &mdash; [A Whirlwind Tour of Apache Mesos](#a-whirlwind-tour-of-apache-mesos)
 * 2015 / 08 &mdash; [.NET Actor Programming with Akka.NET](#net-actor-programming-with-akkanet)
 * 2015 / 07 &mdash; [Actor Programming with Akka.NET](#actor-programming-with-akkanet)
+
+<br>
+
+---
+
+<br>
+
+### 2018 Scala Matsuri, a Recap
+**Abstract:** A recap of some of the talks presented at Scala Matsuri 2018 in Tokyo, Japan.
+<br><br>
+**Event:** [Singapore Scala Programmers Meetup](https://www.meetup.com/Singapore-Scala-Programmers/events/248991368/)
+<br><br>
+**Slides:** [2018 Scala Matsuri, a Recap @ Slides](https://slides.com/hhandoko/scala-matsuri-2018-recap/) 
+<br><br>
+**Tags:** `cats` `category-theory` `functional-programming` `monad-transformer` `scala`
 
 <br>
 
