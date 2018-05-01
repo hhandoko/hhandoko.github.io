@@ -23,7 +23,7 @@ description: >
   Personal blog of Herdy, a software engineer based in Singapore.
   Focusing on web technologies, interested in distributed computing, concurrency,
   and the actor model.
-  Scala, Play, Akka, Kotlin, Elixir, Phoenix, C#, and ServiceStack.
+  Scala, Kotlin, Elixir, C#, Elm, and Dart.
 baseurl: ""
 url: "http://www.hhandoko.com"
 google_analytics: UA-46393609-2
