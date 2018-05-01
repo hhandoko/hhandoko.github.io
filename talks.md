@@ -6,12 +6,28 @@ permalink: /talks.html
 
 The following is a list of my past talks on various software development topics (latest first):
 
+* 2018 / 04 &mdash; [Scala x Kotlin](#scala-x-kotlin)
 * 2018 / 03 &mdash; [2018 Scala Matsuri, a Recap](#2018-scala-matsuri-a-recap)
 * 2017 / 07 &mdash; [Streaming Applications with Akka Streams](#streaming-applications-with-akka-streams)
 * 2017 / 04 &mdash; [Dotty!](#dotty)
 * 2016 / 05 &mdash; [A Whirlwind Tour of Apache Mesos](#a-whirlwind-tour-of-apache-mesos)
 * 2015 / 08 &mdash; [.NET Actor Programming with Akka.NET](#net-actor-programming-with-akkanet)
 * 2015 / 07 &mdash; [Actor Programming with Akka.NET](#actor-programming-with-akkanet)
+
+<br>
+
+---
+
+<br>
+
+### Scala x Kotlin
+**Abstract:** Key similarities and differences between Scala and Kotlin, based on recent experience working in a mixed-language codebase of Scala + Kotlin (+ Java) as part of an application modernisation project.
+<br><br>
+**Event:** [Singapore Scala Programmers Meetup](https://www.meetup.com/Singapore-Scala-Programmers/events/249918164/)
+<br><br>
+**Slides:** [Scala x Kotlin @ Slides](http://slides.com/hhandoko/scala-x-kotlin/) 
+<br><br>
+**Tags:** `gradle` `java` `kotlin` `scala`
 
 <br>
 
