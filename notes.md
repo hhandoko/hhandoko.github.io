@@ -39,7 +39,14 @@ The following is a collection of resources (e.g. packages, PPAs, themes) I'm usi
 * [psensor](http://wpitchoune.net/psensor/) - Show system temperature in toolbar.
 * [Stacer](https://github.com/oguzhaninan/Stacer) - Linux system optimiser and monitoring.
 
-#### Theming
+#### Theming (18.04)
+
+* [Adapta](https://github.com/adapta-project/adapta-gtk-theme) - Google Material design theme.
+* [Flatpak](https://flatpak.org/setup/Ubuntu/) - Cross-distro Linux application distribution platform.
+* [Papirus - Icons](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme) - Flat icons with Adapta theme.
+* Enable minimise 'on click' on Ubuntu dock: `gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize'`
+
+#### Theming (16.04)
 
 * [Arc Theme - Firefox](https://github.com/horst3180/arc-firefox-theme) - Arc theme extension for Firefox.
 * [Arc Theme - GTK](https://github.com/horst3180/arc-theme) - Flat theme with transparent element for GTK (incl. Unity).
