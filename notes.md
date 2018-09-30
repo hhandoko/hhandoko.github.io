@@ -70,6 +70,7 @@ The following is a collection of resources (e.g. packages, PPAs, themes) I'm usi
 
 The following is a list of useful Gradle plugins I'm using in my Java / Kotlin / Scala projects:
 
+* [Gradle-Travis-Colored-Output](https://github.com/mendhak/Gradle-Travis-Colored-Output) - Concise test output formatting (with colours and symbols).
 * [gradle-stats](https://github.com/aalmiray/stats-gradle-plugin) - Provides source code statistics in individual or aggregate project.
 
 <br>
