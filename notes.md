@@ -28,6 +28,7 @@ The following is a collection of resources (e.g. packages, PPAs, themes) I'm usi
 
 #### Developer Tools
 
+* [Bashstrap](https://github.com/barryclark/bashstrap) - Theme and aliases for OSX bash.
 * [Fira Code](https://github.com/tonsky/FiraCode) - Monospaced font for coding with ligature support.
 * [Ruby package](https://www.brightbox.com/docs/ruby/ubuntu/) - Use 3<sup>rd</sup> party Ruby repository to get the latest version, including dev packages and version switch utility.
 * [Visual Studio Code package](https://code.visualstudio.com/docs/setup/linux) - Install VSCode via PPA, rather `deb` package for ease-of-update.
@@ -58,6 +59,7 @@ The following is a collection of resources (e.g. packages, PPAs, themes) I'm usi
 
 #### Other
 
+* [Random string generation](https://unix.stackexchange.com/a/230676) - Generate random string in bash (`</dev/urandom tr -dc 'A-Za-z0-9!"#$%&'\''()*+,-./:;<=>?@[\]^_{|}~' | head -c 64; echo`)
 * [Restore grub](https://itsfoss.com/no-grub-windows-linux/) - Restore grub after Windows 10 update (`bcdedit /set {bootmgr} path \EFI\ubuntu\grubx64.efi` in command shell).
 
 <br>
