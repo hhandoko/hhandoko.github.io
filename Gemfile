@@ -1,7 +1,7 @@
 ###
 # File     : Gemfile
 # License  :
-#   Copyright (c) 2017 Herdy Handoko
+#   Copyright (c) 2017 - 2019 Herdy Handoko
 #
 #   Licensed under the Apache License, Version 2.0 (the "License");
 #   you may not use this file except in compliance with the License.
@@ -14,9 +14,6 @@
 #   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 #   See the License for the specific language governing permissions and
 #   limitations under the License.
-#
-# Notes    :
-#   - https://www.gitignore.io/api/windows,osx,linux,intellij,eclipse,netbeans,ensime,java,scala,sbt,playframework,vagrant
 ###
 source "https://rubygems.org"
 ruby RUBY_VERSION
