@@ -6,6 +6,7 @@ permalink: /talks.html
 
 The following is a list of my past talks on various software development topics (latest first):
 
+* 2019 / 05 &mdash; [Server-side Microfrontends](#server-side-microfrontends)
 * 2018 / 04 &mdash; [Scala x Kotlin](#scala-x-kotlin)
 * 2018 / 03 &mdash; [2018 Scala Matsuri, a Recap](#2018-scala-matsuri-a-recap)
 * 2017 / 07 &mdash; [Streaming Applications with Akka Streams](#streaming-applications-with-akka-streams)
@@ -20,12 +21,25 @@ The following is a list of my past talks on various software development topics 
 
 <br>
 
+### Server-side Microfrontends
+**Abstract:** Provide an overview of the microfrontend approach/architecture, and share some learnings from recent experience implementing a server-side variant.
+<br><br>
+**Event:** [Voxxed Days Singapore](https://voxxeddays.com/singapore/herdy-handoko/)
+<br><br>
+**Tags:** `esi` `microfrontend` `nodesi`
+
+<br>
+
+---
+
+<br>
+
 ### Scala x Kotlin
 **Abstract:** Key similarities and differences between Scala and Kotlin, based on recent experience working in a mixed-language codebase of Scala + Kotlin (+ Java) as part of an application modernisation project.
 <br><br>
 **Event:** [Singapore Scala Programmers Meetup](https://www.meetup.com/Singapore-Scala-Programmers/events/249918164/)
 <br><br>
-**Slides:** [Scala x Kotlin @ Slides](http://slides.com/hhandoko/scala-x-kotlin/) 
+**Slides:** [Scala x Kotlin @ Slides](http://slides.com/hhandoko/scala-x-kotlin/)
 <br><br>
 **Tags:** `gradle` `java` `kotlin` `scala`
 
@@ -40,7 +54,7 @@ The following is a list of my past talks on various software development topics 
 <br><br>
 **Event:** [Singapore Scala Programmers Meetup](https://www.meetup.com/Singapore-Scala-Programmers/events/248991368/)
 <br><br>
-**Slides:** [2018 Scala Matsuri, a Recap @ Slides](https://slides.com/hhandoko/scala-matsuri-2018-recap/) 
+**Slides:** [2018 Scala Matsuri, a Recap @ Slides](https://slides.com/hhandoko/scala-matsuri-2018-recap/)
 <br><br>
 **Tags:** `cats` `category-theory` `functional-programming` `monad-transformer` `scala`
 
@@ -56,7 +70,7 @@ The following is a list of my past talks on various software development topics 
 **Event:** [geekcamp Indonesia](https://www.geekcamp.id/)
 <br><br>
 **Recorded Session:** [Streaming Applications with Akka Streams @ Vidio](https://www.vidio.com/watch/793734-streaming-applications-with-akka-streams-herdy-handoko)<br>
-**Slides:** [Streaming Applications with Akka Streams @ Slides](https://slides.com/hhandoko/streaming-applications/) 
+**Slides:** [Streaming Applications with Akka Streams @ Slides](https://slides.com/hhandoko/streaming-applications/)
 <br><br>
 **Tags:** `akka` `akka-streams` `dataflow` `functional-programming` `graphdsl` `scala`
 
@@ -72,7 +86,7 @@ The following is a list of my past talks on various software development topics 
 **Event:** [Singapore Scala Programmers Meetup](https://www.meetup.com/Singapore-Scala-Programmers/events/238821807/)
 <br><br>
 **Recorded Session:** [Dotty! @ Engineers.SG](https://engineers.sg/video/dotty-singapore-scala-programmers--1653)<br>
-**Slides:** [Dotty! @ Slides](http://slides.com/hhandoko/scala-meetup-sg-2017-04-dotty) 
+**Slides:** [Dotty! @ Slides](http://slides.com/hhandoko/scala-meetup-sg-2017-04-dotty)
 <br><br>
 **Tags:** `dotty` `scala`
 

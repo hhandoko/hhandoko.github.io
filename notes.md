@@ -30,8 +30,9 @@ The following is a collection of resources (e.g. packages, PPAs, themes) I'm usi
 
 * [Bashstrap](https://github.com/barryclark/bashstrap) - Theme and aliases for OSX bash.
 * [Fira Code](https://github.com/tonsky/FiraCode) - Monospaced font for coding with ligature support.
+* [nvm](https://github.com/nvm-sh/nvm) - Install and manage multiple versions of Nodejs.
 * [Ruby package](https://www.brightbox.com/docs/ruby/ubuntu/) - Use 3<sup>rd</sup> party Ruby repository to get the latest version, including dev packages and version switch utility.
-* [Visual Studio Code package](https://code.visualstudio.com/docs/setup/linux) - Install VSCode via PPA, rather `deb` package for ease-of-update.
+* [SDKMAN](https://sdkman.io/) - Install and manage multiple versions of Java SDKs and build tools.
 
 #### OS Tools
 
@@ -39,6 +40,7 @@ The following is a collection of resources (e.g. packages, PPAs, themes) I'm usi
 * [indicator-multiload](http://thaeial.blogspot.sg/p/indicator-multiload-faq.html) - Show system resource usages (e.g. CPU, memory, network) in toolbar.
 * [psensor](http://wpitchoune.net/psensor/) - Show system temperature in toolbar.
 * [Stacer](https://github.com/oguzhaninan/Stacer) - Linux system optimiser and monitoring.
+* [tilix](https://gnunn1.github.io/tilix-web/) - Tiling terminal emulator.
 
 #### Theming (18.04)
 
@@ -72,8 +74,9 @@ The following is a collection of resources (e.g. packages, PPAs, themes) I'm usi
 
 The following is a list of useful Gradle plugins I'm using in my Java / Kotlin / Scala projects:
 
-* [Gradle-Travis-Colored-Output](https://github.com/mendhak/Gradle-Travis-Colored-Output) - Concise test output formatting (with colours and symbols).
+* [gradle-test-logger](https://github.com/radarsh/gradle-test-logger-plugin) - Test output formatting with themes and parallel execution support.
 * [gradle-stats](https://github.com/aalmiray/stats-gradle-plugin) - Provides source code statistics in individual or aggregate project.
+* [spotless](https://github.com/diffplug/spotless) - Source code formatter support; supports Java, Scala, Kotlin, SQL, etc.
 
 <br>
 
