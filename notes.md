@@ -42,6 +42,11 @@ The following is a collection of resources (e.g. packages, PPAs, themes) I'm usi
 * [Stacer](https://github.com/oguzhaninan/Stacer) - Linux system optimiser and monitoring.
 * [tilix](https://gnunn1.github.io/tilix-web/) - Tiling terminal emulator.
 
+#### Shell Customisation
+
+* [Oh My Zsh](https://ohmyz.sh/) - Zsh terminal customisations.
+* [Powerline for Agnoster](https://blog.zhaytam.com/2019/04/19/powerline-and-zshs-agnoster-theme-in-vs-code/) - Fix Powerline fonts for ZSH Agnoster theme.
+
 #### Theming (18.04)
 
 * [Adapta](https://github.com/adapta-project/adapta-gtk-theme) - Google Material design theme.
