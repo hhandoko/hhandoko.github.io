@@ -22,13 +22,13 @@ The following is a collection of resources (e.g. packages, PPAs, themes) I'm usi
 
 #### General
 
-* [Apple Keyboard Fn switch](https://superuser.com/a/223471) - Switch `Fn` key function in Ubuntu (`echo 2 | sudo tee /sys/module/hid_apple/parameters/fnmode`).
+* [Apple Keyboard Fn switch](https://superuser.com/a/223471) - Switch `Fn` key function in Ubuntu for use with Mac keyboards (`echo 2 | sudo tee /sys/module/hid_apple/parameters/fnmode`).
 * [emoji-keyboard](https://github.com/OzymandiasTheGreat/emoji-keyboard) - Emoji support via virtual keyboard.
 * [rtl8192cu-fixes](https://github.com/pvaret/rtl8192cu-fixes) - Repackaged Realtek 8192CU USB WiFi driver.
+* [Intel Graphics screen tear fix](https://askubuntu.com/a/1119262) - Fixes Screen tearing issue with Intel Integrated Graphics.
 
 #### Developer Tools
 
-* [Bashstrap](https://github.com/barryclark/bashstrap) - Theme and aliases for OSX bash.
 * [Fira Code](https://github.com/tonsky/FiraCode) - Monospaced font for coding with ligature support.
 * [nvm](https://github.com/nvm-sh/nvm) - Install and manage multiple versions of Nodejs.
 * [Ruby package](https://www.brightbox.com/docs/ruby/ubuntu/) - Use 3<sup>rd</sup> party Ruby repository to get the latest version, including dev packages and version switch utility.
@@ -44,6 +44,7 @@ The following is a collection of resources (e.g. packages, PPAs, themes) I'm usi
 
 #### Shell Customisation
 
+* [Bashstrap](https://github.com/barryclark/bashstrap) - Theme and aliases for OSX bash.
 * [Oh My Zsh](https://ohmyz.sh/) - Zsh terminal customisations.
 * [Powerline for Agnoster](https://blog.zhaytam.com/2019/04/19/powerline-and-zshs-agnoster-theme-in-vs-code/) - Fix Powerline fonts for ZSH Agnoster theme.
 
