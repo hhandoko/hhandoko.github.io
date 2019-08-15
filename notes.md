@@ -54,7 +54,9 @@ The following is a collection of resources (e.g. packages, PPAs, themes) I'm usi
 * [Flatpak](https://flatpak.org/setup/Ubuntu/) - Cross-distro Linux application distribution platform.
 * [Gnome Shell Extension](http://ubuntuhandbook.org/index.php/2017/05/enable-shell-theme-in-gnome-tweak-tool-in-ubuntu/) - Enable Gnome user-shell extension for Gnome Tweak tool.
 * [Papirus - Icons](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme) - Flat icons with Adapta theme.
-* Enable minimise 'on click' on Ubuntu dock: `gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize'`
+* Change dock 'on click' behaviour:
+  * View options: `gsettings range org.gnome.shell.extensions.dash-to-dock click-action`
+  * Set value (e.g. preview): `gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'previews'`
 
 #### Theming (16.04)
 
