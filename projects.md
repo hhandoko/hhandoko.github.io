@@ -11,9 +11,9 @@ The following is a list of my current and past open-source contributions, ordere
 * [ServiceStack.Authentication.LightSpeed](#servicestackauthenticationlightspeed) (inactive)
 * [yam-dotnet](#yam-dotnet) (inactive)
 
-In addition, I am actively working on a social utility application with a group of friends:
+Projects:
 
-* [simpoel](#simpoel)
+* [simpoel](#simpoel) (retired)
 
 <br>
 
@@ -75,7 +75,7 @@ In addition, I am actively working on a social utility application with a group 
 ### yam-dotnet
 **Overview:** An unofficial .NET [Yammer](https://www.yammer.com/) REST API wrapper. (inactive)
 <br><br>
-**Description:** This project was created as there was no published Yammer .NET library to call and consume Yammer's REST API results. Whilst there were several open-source projects, either none was readily usable (e.g. had to be downloaded and compiled separately) or open-source. 
+**Description:** This project was created as there was no published Yammer .NET library to call and consume Yammer's REST API results. Whilst there were several open-source projects, either none was readily usable (e.g. had to be downloaded and compiled separately) or open-source.
 <br><br>
 **License:** BSD 3-Clause
 <br><br>
@@ -90,7 +90,7 @@ In addition, I am actively working on a social utility application with a group 
 <br>
 
 ### simpoel
-**Overview:** A social utility web application to help connect people to communities.
+**Overview:** A social utility web application to help connect people to communities. (retired)
 <br><br>
 **Description:** This project was initially created to help Indonesian expats connect with their local communities, providing basic forum and event management functionalities. Extensive work has been put into making the architecture more modular, which ultimate goal is to allow self-hosting, custom branding, and multi-tenancy setup.
 <br><br>
