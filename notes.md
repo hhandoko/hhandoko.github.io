@@ -29,10 +29,17 @@ The following is a collection of resources (e.g. packages, PPAs, themes) I'm usi
 
 #### Developer Tools
 
+* [asdf](https://github.com/asdf-vm/asdf) - Extendable version control manager for Erlang, Elixir, Elm, etc.
+* [bat](https://github.com/sharkdp/bat) - Better `cat`.
+* [fd](https://github.com/sharkdp/fd) - Better `find`.
 * [Fira Code](https://github.com/tonsky/FiraCode) - Monospaced font for coding with ligature support.
 * [nvm](https://github.com/nvm-sh/nvm) - Install and manage multiple versions of Nodejs.
 * [Ruby package](https://www.brightbox.com/docs/ruby/ubuntu/) - Use 3<sup>rd</sup> party Ruby repository to get the latest version, including dev packages and version switch utility.
 * [SDKMAN](https://sdkman.io/) - Install and manage multiple versions of Java SDKs and build tools.
+
+#### Productivity Tools
+
+* [Joplin](https://joplinapp.org/) - Note-taking tool with sync capabilities.
 
 #### OS Tools
 
@@ -83,6 +90,7 @@ The following is a collection of resources (e.g. packages, PPAs, themes) I'm usi
 The following is a list of useful Gradle plugins I'm using in my Java / Kotlin / Scala projects:
 
 * [gradle-test-logger](https://github.com/radarsh/gradle-test-logger-plugin) - Test output formatting with themes and parallel execution support.
+* [gradle-scoverage](https://github.com/scoverage/gradle-scoverage) - Enable Scoverage in Scala project
 * [gradle-stats](https://github.com/aalmiray/stats-gradle-plugin) - Provides source code statistics in individual or aggregate project.
 * [spotless](https://github.com/diffplug/spotless) - Source code formatter support; supports Java, Scala, Kotlin, SQL, etc.
 
