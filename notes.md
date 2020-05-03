@@ -40,6 +40,7 @@ The following is a collection of resources (e.g. packages, PPAs, themes) I'm usi
 #### Productivity Tools
 
 * [Joplin](https://joplinapp.org/) - Note-taking tool with sync capabilities.
+* [Remmina](https://remmina.org/) - RDP client for Linux.
 
 #### OS Tools
 
