@@ -56,6 +56,17 @@ The following is a collection of resources (e.g. packages, PPAs, themes) I'm usi
 * [Oh My Zsh](https://ohmyz.sh/) - Zsh terminal customisations.
 * [Powerline for Agnoster](https://blog.zhaytam.com/2019/04/19/powerline-and-zshs-agnoster-theme-in-vs-code/) - Fix Powerline fonts for ZSH Agnoster theme.
 
+#### Theming (20.04)
+
+* [Gnome Shell Extension](http://ubuntuhandbook.org/index.php/2017/05/enable-shell-theme-in-gnome-tweak-tool-in-ubuntu/) - Enable Gnome user-shell extension for Gnome Tweak tool.
+* [Starship.rs](https://starship.rs/) - Cross-shell shell customisations.
+* [Sushi](https://github.com/GNOME/sushi) - Smart file previews.
+* [Yaru Dark VLC](https://gitlab.com/NovaQC/vlc-yaru-dark/) - Ubuntu's Yaru Dark VLC theme.
+* Change dock 'on click' behaviour:
+  * View options: `gsettings range org.gnome.shell.extensions.dash-to-dock click-action`
+  * Set value (e.g. preview): `gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'previews'`
+* Remove mounted drives on dock `gsettings set org.gnome.shell.extensions.dash-to-dock show-mounts false`
+
 #### Theming (18.04)
 
 * [Adapta](https://github.com/adapta-project/adapta-gtk-theme) - Google Material design theme.
