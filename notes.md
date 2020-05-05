@@ -31,6 +31,10 @@ The following is a collection of resources (e.g. packages, PPAs, themes) I'm usi
 
 * [asdf](https://github.com/asdf-vm/asdf) - Extendable version control manager for Erlang, Elixir, Elm, etc.
 * [bat](https://github.com/sharkdp/bat) - Better `cat`.
+* [docker](https://docs.docker.com/) - Container (virtualization) engine.
+  * Install instructions: <https://linuxconfig.org/how-to-install-docker-on-ubuntu-20-04-lts-focal-fossa>
+* [docker-compose](https://docs.docker.com/compose/) - Single-machine container orchestration.
+  * Install instructions: <https://linuxconfig.org/how-to-install-docker-compose-on-ubuntu-20-04-focal-fossa-linux>
 * [fd](https://github.com/sharkdp/fd) - Better `find`.
 * [Fira Code](https://github.com/tonsky/FiraCode) - Monospaced font for coding with ligature support.
 * [nvm](https://github.com/nvm-sh/nvm) - Install and manage multiple versions of Nodejs.
