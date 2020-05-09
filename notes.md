@@ -48,10 +48,13 @@ The following is a collection of resources (e.g. packages, PPAs, themes) I'm usi
 
 #### OS Tools
 
+* [cpufreq](https://extensions.gnome.org/extension/1082/cpufreq/) - CPU monitor and power management tool.
+  * Remove `irqbalance` if required: `sudo apt-get remove irqbalance`
 * [f.lux](https://justgetflux.com/) - Adapt computer monitor glow by time of day.
-* [indicator-multiload](http://thaeial.blogspot.sg/p/indicator-multiload-faq.html) - Show system resource usages (e.g. CPU, memory, network) in toolbar.
 * [psensor](http://wpitchoune.net/psensor/) - Show system temperature in toolbar.
 * [Stacer](https://github.com/oguzhaninan/Stacer) - Linux system optimiser and monitoring.
+* [system-monitor](https://extensions.gnome.org/extension/120/system-monitor/) - Show system resource usages (e.g. CPU, memory, network) in toolbar.
+  * `Clutter` install command if required: `apt install gir1.2-clutter-1.0`
 * [tilix](https://gnunn1.github.io/tilix-web/) - Tiling terminal emulator.
 
 #### Shell Customisation
