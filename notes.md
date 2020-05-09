@@ -25,7 +25,6 @@ The following is a collection of resources (e.g. packages, PPAs, themes) I'm usi
 * [Apple Keyboard Fn switch](https://superuser.com/a/223471) - Switch `Fn` key function in Ubuntu for use with Mac keyboards (`echo 2 | sudo tee /sys/module/hid_apple/parameters/fnmode`).
 * [emoji-keyboard](https://github.com/OzymandiasTheGreat/emoji-keyboard) - Emoji support via virtual keyboard.
 * [rtl8192cu-fixes](https://github.com/pvaret/rtl8192cu-fixes) - Repackaged Realtek 8192CU USB WiFi driver.
-* [Intel Graphics screen tear fix](https://askubuntu.com/a/1119262) - Fixes Screen tearing issue with Intel Integrated Graphics.
 
 #### Developer Tools
 
@@ -95,6 +94,9 @@ The following is a collection of resources (e.g. packages, PPAs, themes) I'm usi
 
 #### Other
 
+* Fix screen tearing:
+  * [Firefox](https://askubuntu.com/a/1181037) - Force hardware acceleration (`about:config` and then set `layers.acceleration.force-enabled` to `true`).
+  * [System-wide](https://askubuntu.com/a/1119262) - Add xorg device configuration.
 * [Random string generation](https://unix.stackexchange.com/a/230676) - Generate random string in bash (`</dev/urandom tr -dc 'A-Za-z0-9!"#$%&'\''()*+,-./:;<=>?@[\]^_{|}~' | head -c 64; echo`)
 * [Restore grub](https://itsfoss.com/no-grub-windows-linux/) - Restore grub after Windows 10 update (`bcdedit /set {bootmgr} path \EFI\ubuntu\grubx64.efi` in command shell).
 
