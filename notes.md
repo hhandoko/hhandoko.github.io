@@ -61,11 +61,11 @@ The following is a collection of resources (e.g. packages, PPAs, themes) I'm usi
 * [Bashstrap](https://github.com/barryclark/bashstrap) - Theme and aliases for OSX bash.
 * [Oh My Zsh](https://ohmyz.sh/) - Zsh terminal customisations.
 * [Powerline for Agnoster](https://blog.zhaytam.com/2019/04/19/powerline-and-zshs-agnoster-theme-in-vs-code/) - Fix Powerline fonts for ZSH Agnoster theme.
+* [Starship.rs](https://starship.rs/) - Cross-shell shell customisations.
 
 #### Theming (20.04)
 
 * [Gnome Shell Extension](http://ubuntuhandbook.org/index.php/2017/05/enable-shell-theme-in-gnome-tweak-tool-in-ubuntu/) - Enable Gnome user-shell extension for Gnome Tweak tool.
-* [Starship.rs](https://starship.rs/) - Cross-shell shell customisations.
 * [Sushi](https://github.com/GNOME/sushi) - Smart file previews.
 * [Yaru Dark VLC](https://gitlab.com/NovaQC/vlc-yaru-dark/) - Ubuntu's Yaru Dark VLC theme.
 * Change dock 'on click' behaviour:
