@@ -94,6 +94,8 @@ The following is a collection of resources (e.g. packages, PPAs, themes) I'm usi
 
 #### Other
 
+* Erlang `asdf` installation:
+  * Install `libwxgtk3.0-gtk3-dev` and `libwxgtk-webview3.0-gtk3-dev` to fix missing wxWidgets developer packages.
 * Fix screen tearing:
   * [Firefox](https://askubuntu.com/a/1181037) - Force hardware acceleration (`about:config` and then set `layers.acceleration.force-enabled` to `true`).
   * [System-wide](https://askubuntu.com/a/1119262) - Add xorg device configuration.
